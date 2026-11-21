@@ -2,7 +2,7 @@
 
 A two-page Power BI dashboard that shows the Northwind executive team how the business is performing this year, and what to do about it.
 
-![Overview page](images/01-overview.png)
+![Overview page](img/01-overview.png)
 
 **Files:** [Power BI file](Northwind_KPI_Dashboard.pbix) | [PDF export](Northwind_KPI_Dashboard.pdf)
 
@@ -24,7 +24,7 @@ Northwind Traders is a fictional company that sells gourmet food to restaurants 
 | 4   | **Freight is growing faster than revenue** | Freight rose from 4.5% to 5.0% of revenue. United Package handles 43% of orders but 55% of freight spend.                                        |
 |     |                                            |                                                                                                                                                  |
 
-![Details page](images/02-details.png)
+![Details page](img/02-details.png)
 
 ### Recommendations
 
@@ -40,7 +40,7 @@ The dataset has 7 CSV tables with 2,985 records: orders, order details, products
 
 I built a star schema with `orders` and `order_details` as the fact tables and the other tables as dimensions. All relationships are one-to-many and single direction. I also added a date table that covers full calendar years (2013 to 2015), marked it as a date table, and turned off Power BI's automatic date tables.
 
-![Data model](images/03-data-model.png)
+![Data model](img/03-data-model.png)
 
 ---
 
